@@ -5,7 +5,7 @@
 ```bash
  $ pyenv virtualenv 3.6.5 mlflow-sandbox
  $ pyenv local mlflow-sandbox
- $ pip install mlflow scikit-learn lightgbm matplotlib jupyter
+ $ pip install mlflow scikit-learn lightgbm matplotlib jupyter tensorflow
 ```
 
 ```bash
