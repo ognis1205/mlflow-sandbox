@@ -10,4 +10,5 @@
 
 ```bash
  $ mlflow server --backend-store-uri sqlite:///tracking.db --default-artifact-root file:/tmp/artifacts --host 0.0.0.0
+ $ mlflow server --backend-store-uri sqlite:///data/mlflow.db --default-artifact-root file:data/mlflow-artifacts/ --host 0.0.0.0
 ```
